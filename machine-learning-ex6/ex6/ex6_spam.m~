@@ -138,7 +138,7 @@ fprintf('(1 indicates spam, 0 indicates not spam)\n\n');
 
 % test 2
 
-filename = 'emailSample1.txt';
+filename = 'emailSample2.txt';
 
 % Read and predict
 file_contents = readFile(filename);
