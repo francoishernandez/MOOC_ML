@@ -46,7 +46,7 @@ J = 1/2 * sum(sum((((Theta * X')' - Y).^2).*R)) ...
 
 X_grad = ((Theta * X')' - Y).*R * Theta + lambda * X;
 
-Theta_grad = (((Theta * X')' - Y).*R)' * X + lambda * Theta;
+Theta_grad = (((Theta * X')' - Y).*R)' * X + lambda * ;
 
 % =============================================================
 
